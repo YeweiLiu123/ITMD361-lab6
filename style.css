@@ -1,4 +1,57 @@
-td, th {
-	border: 1px solid;
-  }
-  
+body {
+    background-color: lime;
+}
+h1 {
+    font-size: 42px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+p {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 20px auto;
+    background-color: pink;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: normal;
+}
+
+table th {
+    background-color: #333;
+    color:green;
+    font-weight: bold;
+}
+
+
+th:first-child, td:first-child {
+    font-weight: bold;
+    color:red;
+}
+
+
+table img {
+    width: 100px;
+    height: auto;
+}
+
+
+td:nth-child(1) {
+    font-style: italic;
+}
+
+
